@@ -1,6 +1,5 @@
 Create an .env file in this folder with the following structure :
 
-`.env`
 ```
 EMAIL_ADDRESS=<email>
 EMAIL_APP_PASSWORD=<app password>
