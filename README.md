@@ -1,4 +1,6 @@
 Create an .env file in this folder with the following structure :
+
+```title=".env"
 EMAIL_ADDRESS=<email>
 EMAIL_APP_PASSWORD=<app password>
 
@@ -6,6 +8,7 @@ SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
 
 RECIPIENTS=<emails to send notification>
+```
 
 To run the script, first install the following packages 
 
