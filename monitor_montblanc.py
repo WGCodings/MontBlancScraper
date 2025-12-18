@@ -13,7 +13,7 @@ URLS = [
     "https://montblanc.ffcam.fr/GB_home.html"
 ]
 
-CHECK_INTERVAL_SECONDS = os.getenv("CHECK_INTERVAL_SECONDS")
+CHECK_INTERVAL_SECONDS = int(os.getenv("CHECK_INTERVAL_SECONDS", "300"))
 EMAIL_ADDRESS = os.getenv("EMAIL_ADDRESS")
 EMAIL_APP_PASSWORD = os.getenv("EMAIL_APP_PASSWORD")
 SMTP_SERVER = os.getenv("SMTP_SERVER")
